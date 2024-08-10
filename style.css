@@ -1,0 +1,189 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    background: url('assets/woman-hands-with-laptop-green-smoothies-with-apple-blue-table-top-view-flat-lay.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+.cta-button-buy_now {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button-buy_now:hover {
+    background-color: #218838;
+}
+
+.cta-button-purchase {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button-purchase:hover {
+    background-color: #218838;
+}
+
+.features {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    padding-bottom: 18px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.feature-item img {
+    /* border: 1px solid green; */
+    /* width: 250px; */
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    /* height: 300px; */
+
+}
+
+.feature-item h3 {
+    margin: 7px 0;
+}
+
+.feature-item p {
+    color: #555;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* border: 1px solid red; */
+}
+
+.testimonial-item img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    /* border-radius: 50%; */
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.pricing {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pricing-tiers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tier {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tier h3 {
+    margin-bottom: 10px;
+}
+
+.tier p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #bbb;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .feature-item,
+    .testimonial-item,
+    .tier {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

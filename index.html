@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlow - Eco-Friendly Water Bottles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>EcoFlow Water Bottles</h1>
+            <p>Hydrate Sustainably with Nature's Best Companion.</p>
+            <a href="#pricing" class="cta-button-buy_now">Buy Now</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <img src="assets/blue-yoga-mat-flowers-arrangement.jpg" loading="lazy" alt="Feature 1">
+                    <h3>Reusable</h3>
+                    <p>Our bottles are 100% reusable, helping you reduce plastic waste.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="assets/top-view-water-bottle-gloves.jpg" loading="lazy" alt="Feature 2">
+                    <h3>Insulated</h3>
+                    <p>Keep your drinks cold for up to 24 hours, and hot for up to 12 hours.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="assets/white-reusable-water-bottle.jpg" loading="lazy" alt="Feature 3">
+                    <h3>Stylish Design</h3>
+                    <p>Choose from a variety of colors and designs that suit your style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>Customer Testimonials</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <img loading="lazy"
+                        src="assets/lifestyle-beauty-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-white-background-smiling-with-arms-crossed-chest.jpg"
+                        alt="Customer 1">
+                    <p>"I love my EcoFlow bottle! It keeps my water cold all day."</p>
+                    <h4>- Park Shin-hye</h4>
+                </div>
+                <div class="testimonial-item">
+                    <img loading="lazy" src="assets/front-view-woman-studio-with-copy-space (1).jpg" alt="Customer 2">
+                    <p>"The design is sleek and stylish. Highly recommend!"</p>
+                    <h4>- Jessica Alba</h4>
+                </div>
+                <div class="testimonial-item">
+                    <img loading="lazy"
+                        src="assets/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign.jpg"
+                        alt="Customer 3">
+                    <p>"EcoFlow bottles are perfect for my workouts and hikes."</p>
+                    <h4>- Shasank Sharma</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="pricing-tiers">
+                <div class="tier">
+                    <h3>Basic</h3>
+                    <p>$19.99</p>
+                    <div class="cta-button-purchase">Purchase</div>
+                </div>
+                <div class="tier">
+                    <h3>Pro</h3>
+                    <p>$29.99</p>
+                    <div class="cta-button-purchase">Purchase</div>
+                </div>
+                <div class="tier">
+                    <h3>Premium</h3>
+                    <p>$39.99</p>
+                    <div class="cta-button-purchase">Purchase</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 EcoFlow. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.cta-button-buy_now').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('#pricing').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+</body>
+
+</html>
